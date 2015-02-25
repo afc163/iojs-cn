@@ -1,73 +1,51 @@
 ---
 layout: post
-title: io.js Project Governance
-author: iojs
+title: io.js 项目管理守则
+author: iojs team
 reference: https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md
-published: false
 ---
 
-## Technical Committee
+# io.js 项目管理守则
+-------
 
-The io.js project is jointly governed by a Technical Committee (TC)
-which is responsible for high-level guidance of the project.
+## 技术委员会
 
-The TC has final authority over this project including:
+io.js 项目将由技术委员会简称 ( TC ) 的成员们共同监督和管理，保持 io.js 项目的统一性。
 
-* Technical direction
-* Project governance and process (including this policy)
-* Contribution policy
-* GitHub repository hosting
-* Conduct guidelines
-* Maintaining the list of additional Collaborators
+TC 拥有这个项目的最终权威，其中包括：
 
-Initial membership invitations to the TC were given to individuals who
-had been active contributors to io.js, and who have significant
-experience with the management of the io.js project. Membership is
-expected to evolve over time according to the needs of the project.
+* 项目的技术方向
+* 项目管理守则和制定方针
+* 贡献着的权利和义务
+* GitHub 项目库的管理
+* 保持行为准则
+* 增加或减少项目的合作伙伴
 
-For the current list of TC members, see the project
-[README.md](./README.md#current-project-team-members).
+技术委员会的初期会员来自于一直对 io.js 项目积极和热衷的优秀贡献者，和对于io.js项目有显著管理经验的成员。所有技术委员会会员将有资格
+对 io.js 项目发表自己的意见。
 
-## Collaborators
+技术委员会的初期会员列表，请参阅[这里](https://github.com/iojs/io.js/blob/v1.x/README.md#current-project-team-members)。
 
-The [iojs/io.js](https://github.com/iojs/io.js) GitHub repository is
-maintained by the TC and additional Collaborators who are added by the
-TC on an ongoing basis.
+## 优秀贡献者
 
-Individuals making significant and valuable contributions are made
-Collaborators and given commit-access to the project. These
-individuals are identified by the TC and their addition as
-Collaborators is discussed during the weekly TC meeting.
+[iojs/io.js](https://github.com/iojs/io.js) GitHub 项目库的管理将由技术委员会会员和热衷的合作伙伴共同完成。技术委员会将有权利增加更多的合作伙伴。
 
-_Note:_ If you make a significant contribution and are not considered
-for commit-access log an issue or contact a TC member directly and it
-will be brought up in the next TC meeting.
+优秀贡献者花费了大量的时间和精力为了 io.js 项目的成功，技术委员会将回馈及肯定这些优秀贡献者，并给予 GitHub 项目库的初级管理员的身份。优秀贡献者并且参与与技术委员会会员小组会议的权利和讨论议题。
 
-Modifications of the contents of the iojs/io.js repository are made on
-a collaborative basis. Anybody with a GitHub account may propose a
-modification via pull request and it will be considered by the project
-Collaborators. All pull requests must be reviewed and accepted by a
-Collaborator with sufficient expertise who is able to take full
-responsibility for the change. In the case of pull requests proposed
-by an existing Collaborator, an additional Collaborator is required
-for sign-off. Consensus should be sought if additional Collaborators
-participate and there is disagreement around a particular
-modification. See _Consensus Seeking Process_ below for further detail
-on the consensus model used for governance.
+注意事项：假如你贡献了很多有效的代码，但并没有初级管理员的身份，请直接联系任何一个技术委员会成员，下一次技术委员会会员小组会议将讨论把你的代码加入到 io.js 项目中。
 
-Collaborators may opt to elevate significant or controversial
-modifications, or modifications that have not found consensus to the
-TC for discussion by assigning the ***tc-agenda*** tag to a pull
-request or issue. The TC should serve as the final arbiter where
-required.
+[iojs/io.js](https://github.com/iojs/io.js) GitHub 项目库的文件及其内容的管理，将在一个共同团队协作的基础上完成。每一个有GitHub帐户的会员都可以提出自己认为对的修改方案，每个修改方案都会由技术委员会会员及对项目了解的资深优秀贡献者们共同认真及严谨的审核及校对，至少有两个以上的资深管理员批准，才能通过，以保证项目的高质量。如果在审核及校对修改方案的过程中，资深管理员们不能达成共识，请仔细参照[促进达成共识的守则](./促进达成共识的守则)。
 
-For the current list of Collaborators, see the project
-[README.md](./README.md#current-project-team-members).
+假如某个修改方案有着显著的争议，而且促进达成共识的守则并没有明确的说明，合作伙伴们可以选择提交这个修改方案到技术委员会，通过给这个修改方案这个标签 ***tc-agenda***，技术委员会通过会议方式做出最后的仲裁。
+
+技术委员会的所有会员列表，请参阅[这里](https://github.com/iojs/io.js/blob/v1.x/README.md#current-project-team-members)。
+
+假如你想成为项目的合作伙伴，请参阅[这里](https://github.com/iojs/io.js/blob/v1.x/README.md#current-project-team-members)。
 
 A guide for Collaborators is maintained in
-[COLLABORATOR_GUIDE.md](./COLLABORATOR_GUIDE.md).
+[COLLABORATOR_GUIDE.md](https://github.com/iojs/io.js/blob/v1.x/COLLABORATOR_GUIDE.md).
 
-## TC Membership
+## 技术委员会成员守则
 
 TC seats are not time-limited.  There is no fixed size of the TC.
 However, the expected target is between 6 and 12, to ensure adequate
@@ -92,7 +70,7 @@ the TC membership shares an employer, then the situation must be
 immediately remedied by the resignation or removal of one or more TC
 members affiliated with the over-represented employer(s).
 
-## TC Meetings
+## 技术委员会小组会议
 
 The TC meets weekly on a Google Hangout On Air. The meeting is run by
 a designated moderator approved by the TC. Each meeting should be
@@ -125,7 +103,7 @@ participate in a non-voting capacity. These invitees currently are:
 The moderator is responsible for summarizing the discussion of each
 agenda item and send it as a pull request after the meeting.
 
-## Consensus Seeking Process
+## 促进达成共识的守则
 
 The TC follows a
 [Consensus Seeking](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making)
