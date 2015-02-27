@@ -32,7 +32,7 @@ TC 拥有这个项目的最终权威，其中包括：
 
 [iojs/io.js](https://github.com/iojs/io.js) GitHub 项目库的文件及其内容的管理，将在一个共同团队协作的基础上完成。每一个有 GitHub 帐户的会员都可以用过 pull request 提交自己认为对的修改方案，每个 pull request 都会由技术委员会会员及对项目了解的资深优秀贡献者们共同认真及严谨的审核及校对，至少有两个以上的资深管理员批准，才能通过，以保证项目的高质量。如果在审核及校对 pull request 的过程中，资深管理员们不能达成共识，请仔细参照本文下面促进达成共识的守则。
 
-假如某个 pull request 有着显著的争议，而且促进达成共识的守则并没有明确的说明，合作伙伴们可以通过给这个 pull request 标签 ***tc-agenda*** 的方式提交这个 pull request 到技术委员会，技术委员会会通过会议方式做出最后的仲裁。
+假如某个 pull request 有着显著的争议，而且促进达成共识的守则并没有明确的说明，合作伙伴们可以通过给这个 pull request 加上 ***tc-agenda*** 标签的方式提交这个 pull request 到技术委员会，技术委员会会通过会议方式做出最后的仲裁。
 
 技术委员会的所有会员列表，请参阅[这里](https://github.com/iojs/io.js/blob/v1.x/README.md#current-project-team-members)。
 
