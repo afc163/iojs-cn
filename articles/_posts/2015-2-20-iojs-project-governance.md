@@ -7,7 +7,7 @@ reference: https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md
 
 ## 技术委员会
 
-io.js 项目将由技术委员会简称 ( TC ) 的成员们共同监督和管理，保持 io.js 项目的统一性和超高水平。
+io.js 项目将由技术委员会简称 ( TC ) 的成员们共同监督和管理，保持 io.js 的统一性和宏观指导及掌控整个项目。
 
 TC 拥有这个项目的最终权威，其中包括：
 
